@@ -1,7 +1,7 @@
 describe "Select2", :select2 do
   describe("single", :single) do
     before(:each) do
-      visit("https://training-wheels-protocol.herokuapp.com/apps/select2/single.html")
+      visit("/apps/select2/single.html")
     end
     it "seleciona ator por nome" do
       find(".select2-selection--single").click
